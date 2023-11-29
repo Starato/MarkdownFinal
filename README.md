@@ -15,6 +15,7 @@ The OSI model splits the communication system into seven layers:
   - [Network Layer](./networkLayer.md)
   - [Data Link Layer](./dataLinkLayer.md)
   - [Physical Layer](./physicalLayer.md)
+    
 Individual layers handles it's own specific job and talks with the layers around it.
 
 
