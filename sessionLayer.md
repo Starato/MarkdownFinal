@@ -2,4 +2,6 @@
 
 Summary: Maintains connection and responsible for controlling ports and sessions
 
-The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer—if the session is interrupted, devices can resume data transfer from the last checkpoint.
+The session layer creates communication channels aka sessions, between devices. Opening sessions and making sure they stay open and working correctly while information is being transferred and closing it when it ends is the job of this layer. This layer also sets up checkpoints throughout the transfer so that if the session is interrrupted, the device can resume data transfer from the last checkpoint.
+
+![Session Layer](https://mplsnet.files.wordpress.com/2014/07/49-transport-layer-services2.jpg)
