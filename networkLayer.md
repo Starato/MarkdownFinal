@@ -2,4 +2,6 @@
 
 Summary: Decides which physical path the data will take
 
-The network layer has two main functions. One is breaking up segments into network packets, and reassembling the packets on the receiving end. The other is routing packets by discovering the best path across a physical network. The network layer uses network addresses (typically Internet Protocol addresses) to route packets to a destination node.
+The network layer does two main things. Breaking and reassembling packets on the sending and receiving devices and routing packets by finding the best path across a physical network. The network layer uses network addresses, which are typically IP addresses to route packets to their destination.
+
+![Network Layer](https://www.freecodecamp.org/news/content/images/2021/09/Network-Layer-1.png)
